@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #161A1E;
+    color: white;
+}
+
+.hero-container {
+    background-image: url('/assets/images/handyman3-slider-pic2.png');
+    background-position: center; /* Centers the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: 80%; /* Adjust the size of the image to be smaller than the container */
+    height: 699px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 35px;
+}
+
+
+.nav-lists ul {
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-lists ul li{
+    margin-left: 40px;
+    list-style: none;
+    
+}
+
+.nav-lists ul li a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+}
+
+.hero-container-head{
+    margin-top: 240px;
+    margin-left: 200px;
+    /* position: relative; */
+}
+
+.hero-container-head h1{
+    font-size: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-container-head p{
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-btn{
+    margin-top: 25px;
+}
+
+.read-more{
+    padding: 15px 25px 10px 25px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.hero-small{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.furniture{
+    position: absolute;
+    right: 2%;
+    top: 66vh;
+    transform: translateY(-50%);
+}
+
+.house{
+    position: absolute;
+    right: 10%;
+    top: 90vh;
+    transform: translateY(-50%);
+}
+
+.furniture-text{
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    color: #161A1E;
+
+}
+
+.furniture-text h4{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+}
+
+.furniture-text h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-right: 10px;
+}
+
+.house-text{
+    position: absolute;
+    right: 8%;
+    top: 30%;
+    color: #161A1E;
+
+}
+
+.house-text h4{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+}
+
+.house-text h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-right: 5px;
+}
+
+.liners{
+   position: absolute;
+   top: 110%;
+}
+
+.hero-bottom-text{
+    margin-top: 150px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.handmade{
+    color: #F5C589;
+}
+
+.hero-bottom-text p{
+     font-size: 15px;
+     margin-top: 20px;
+     color: rgb(167, 175, 175);
+}
+
+.servics-btn{
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.liners-bottom{
+    margin-top: 120px;
+}
+
+.section-container{
+    background-color: white;
+    padding-bottom: 80px;
+    color: black;
+
+}
+
+.about-container{
+    padding-top: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.about-head{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.about-head h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.about-head h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.about-head p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+    color: rgb(200, 200, 200);
+}
+
+.about-head h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.about-image-2{
+    margin-top: 70px;
+}
+
+.about-bottom-container{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.passion{
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+.about-bottom-content{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.about-bottom-content h2{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-bottom-content p{
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5rem;
+    color: rgb(200, 200, 200);
+}
+
+.specalty-container{
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color:#DFE0DE;
+    height: 500px;
+    width: 1220px;
+    border-radius: 30px;
+    display: flex;
+    
+}
+
+.furniture-container{
+    padding-top: 30px;
+}
+
+.furniture-image-container{
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.furniture-card{
+    background-color: #ffffff;
+    height: 450px;
+    border-radius: 20px;
+    width: 580px;
+    margin-left: 30px;
+}
+
+.furniture-card-text{
+    padding-top: 75px;
+    margin-left: 50px;
+}
+
+.furniture-card-text h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.furniture-card-text h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.furniture-card-text p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(200, 200, 200);
+}
+
+.furniture-service-btn{
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EEBF7F;
+    color: white;
+}
+
+.furniture-image-container-text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.furniture-image-container-text h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.furniture-image-container-text p{
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.furn-icon-holder{
+    margin-top: 15px;
+}
+
+.icon-home{
+    color: #EEBF7F;
+}
+.icon-circle{
+    color: #b4b8b1;
+}
+
+.tesimonial-section{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.testimonial-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-head-text h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ratings{
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #F9F9F9;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 100px;
+    height: 120px;
+}
+
+.ratings i{
+    margin-left: 5px;
+}
+
+.ratings p{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(200, 200, 200);
+}
+
+.testimonial-starts{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.testimonial-img img{
+    border-radius: 50px;
+}
+
+.testimonial-text-container{
+    margin-top: 20px;
+    background-color: #ebeaea5a;
+    width: 600px;
+    margin-left: 320px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.testimonial-text-container p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.quote-icon{
+    font-size: 50px;
+}
+
+.testi-icon-holder{
+    margin-top: 20px;
+}
+
+.dot-icon{
+    font-size: 40px;
+    color: #EEBF7F;
+}
+
+.testi-icon-holder p{
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon-color-change{
+    color: #EEBF7F;
+    
+}
+.icon-color-change-2{
+    color: #edeae7;
+}
+
+.footer-container{
+    background-image: url('/assets/images/Circle_Davys-Grey_Solid.svg');
+    background-position: center; /* Centers the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: 80%; /* Adjust the size of the image to be smaller than the container */
+    height: 699px;
+}
+
+.footer-starts{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.address-container{
+    margin-top: 50px;
+}
+
+.address-container p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.address-container span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bi{
+    color: #EEBF7F;
+}
+
+.socials{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.socials i{
+    margin-left: 25px;
+}
+
+.footer-line{
+    border: 1px solid rgba(101, 101, 101, 0.449);
+    margin-top: 120px;
+}
+
+.footer-text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-color{
+    color: #EEBF7F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.liners-footer{
+    position: absolute;
+    top: 3470px;
+}
